@@ -83,11 +83,6 @@ namespace SampleBrowser
             return webPage.GetActiveXInstance();
         }
 
-        private void TabPage_MouseDown(object sender, MouseEventArgs e)
-        {
-
-        }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             CreateNewWebPage(null);
